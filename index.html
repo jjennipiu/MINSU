@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Minsu</title>
+	<style type="text/css">
+		body {
+			background-color: gray;
+			margin: 0;
+			font-family: Arial, sans-serif;
+		}
+		header {
+			border-radius: 25px;
+			min-height: 100px;
+			width: 96%;
+			font-size: 2em;
+			text-align: center;
+			background-color: pink;
+			color: black;
+			margin: 20px auto;
+			padding-top: 10px;
+			text-shadow: 2px 2px 5px brown;
+			box-shadow: 2px 2px 15px brown;
+		}
+		nav {
+			border-radius: 15px;
+			height: 60px;
+			width: 92%;
+			margin: 10px auto;
+			background-color: white;
+			color: white;
+			padding-left: 20px;
+			padding-top: 2px;
+			font-size: 1.2em;
+			font-weight: bold;
+			font-style: italic;
+		}
+		ul {
+			list-style: none;
+			display: flex;
+			justify-content: space-around;
+			padding: 0;
+		}
+		a {
+			text-decoration: none;
+			color: brown;
+		}
+		main {
+			min-height: calc(100vh - 200px);
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		section {
+			border-radius: 15px;
+			width: 90%;
+			background-color: hotpink;
+			padding: 20px;
+			margin: 10px 0;
+		}
+		aside {
+			border-radius: 15px;
+			width: 90%;
+			background-color: pink;
+			margin: 10px 0;
+			padding: 20px;
+		}
+		footer {
+			border: 5px solid black;
+			height: 100px;
+			width: 100%;
+			text-align: center;
+			padding: 20px 0;
+		}
+		ol {
+			list-style: none;
+			padding: 0;
+		}
+		img {
+			height: 150px;
+			width: auto; /* Mantener la proporción */
+			max-width: 100%; /* Asegurarse de que no sobrepase el ancho del contenedor */
+		}
+		@media (min-width: 768px) {
+			main {
+				flex-direction: row;
+			}
+			section {
+				width: 75%;
+			}
+			aside {
+				width: 24%;
+				margin-left: 0; /* Eliminar margen izquierdo en pantallas más grandes */
+			}
+		}
+	</style>
+</head>
+<body>
+	<header>Supermercado Minsu</header>
+	<nav>
+		<ul>
+			<li><a href="#ini">Inicio</a></li>
+			<li><a href="#mis">Misión</a></li>
+			<li><a href="#vis">Visión</a></li>
+			<li><a href="#pro">Productos</a></li>
+			<li><a href="#ser">Servicios</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section>
+			<h1 id="ini">Inicio</h1>
+			Somos una empresa que se dedica a .... Brindar un servicio continuo de calidad asegurando la satisfacción de nuestros clientes.
+			<hr>
+			<h1 id="mis">Misión</h1>
+			Nuestra misión es .... Suministrar a la Gerencia información financiera confiable, útil y oportuna para la toma de decisiones y el control gerencial.
+			<hr>
+			<h1 id="vis">Visión</h1>
+			Nuestra visión es .... Permite definir el camino que se debe seguir para alcanzar las metas propuestas.
+			<hr>
+			<h1 id="pro">Productos</h1>
+			Contamos con los siguientes productos .... El resultado que se obtiene del proceso de producción dentro de una empresa.
+			<div>
+				<img src="https://cdnx.jumpseller.com/oh-my-love-bazar/image/41061414/resize/640/640?1697602224" alt="calculadora" title="calculadora">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS-V82tHdrAx9hYADb0cInuQtqPLNe6uZ0hA&s" alt="libros" title="libros">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZTDxzYEDX8k3yFGzQTXPCb2gYWuw1Cpko-A&s" alt="libros" title="libros">
+				<img src="">
+			</div>
+			<hr>
+			<h1 id="ser">Servicios</h1>
+			Los servicios que prestamos son los siguientes .... Procesos involucrados en el registro, clasificación, análisis y reporte sistemático de las transacciones financieras de una empresa.
+		</section>
+		<aside>
+			<ol>
+				<li><a href="https://blog.hubspot.es/sales/que-es-inventario#que-es" target="_blank">Inventarios</a></li>
+				<li><a href="https://www.eleconomista.es/diccionario-de-economia/balance" target="_blank">Balances</a></li>
+				<li><a href="https://www.efisco.es/contabilidad/ajuste-contable/" target="_blank">Ajustes</a></li>
+				<li><a href="https://blog.nubox.com/contadores/calcular-activos-y-pasivos" target="_blank">Cálculos</a></li>
+			</ol>
+		</aside>
+	</main>
+	<footer>
+		Teléfono: 66358923<br>
+		e-mail: minsu@gmail.com
+	</footer>
+</body>
+</html>
